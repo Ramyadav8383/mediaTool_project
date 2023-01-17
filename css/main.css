@@ -28,6 +28,12 @@ a {
   color: #fff;
   cursor: pointer;
 }
+.btn-light {
+  padding: 0.5rem 0.8rem;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
 header {
   padding: 0 1rem;
 }
@@ -97,7 +103,7 @@ header {
 
 /* activities */
 #activities {
-  background: rgb(226, 225, 225);
+  background: rgb(245, 235, 235);
   padding: 2rem;
 }
 #activities h2 {
@@ -122,4 +128,16 @@ header {
 }
 .activities-content div {
   margin: 0 1rem;
+  padding: 0 2rem;
+}
+.activities-content h3 {
+  margin-top: 1rem;
+}
+.activities-content p {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+/* marketing */
+#marketing {
+  background-color: rgb(245, 235, 235);
 }
