@@ -273,3 +273,52 @@ header {
   left: 2rem;
   top: 20px;
 } */
+/* testimonials */
+#testimonials {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: lightgray;
+  padding: 3rem 3rem;
+}
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial-heading {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-left: 3rem;
+  line-height: 1.3;
+}
+.testimonial-para {
+  width: 50%;
+  margin-top: 1rem;
+}
+.testimonial-para p {
+  font-size: 0.9rem;
+  word-spacing: 2px;
+  line-height: 1.7;
+}
+.testimonial-para a {
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.testimonial-cards {
+  margin: 2rem;
+}
+.testimonial-cards .row-1 {
+  display: flex;
+}
+.testimonial-cards .row-1 .card {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1.4rem 2rem;
+  background-color: #fff;
+}
+/* footer */
+#footer {
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+}
