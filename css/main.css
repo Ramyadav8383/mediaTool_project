@@ -221,7 +221,7 @@ header {
   /* margin-left: 1rem; */
 }
 .features-inner {
-  background-color: rgb(224, 216, 216);
+  background-color: #f0f0f0;
   border: 2px solid black;
   padding: 2rem;
   width: 420px;
@@ -277,7 +277,7 @@ header {
 #testimonials {
   width: 100%;
   /* height: 100vh; */
-  background-color: lightgray;
+  background-color: #f0f0f0;
   padding: 3rem 3rem;
 }
 .testimonial {
@@ -305,16 +305,68 @@ header {
   margin-top: 1rem;
 }
 .testimonial-cards {
-  margin: 2rem;
+  margin: 4rem 2rem;
 }
 .testimonial-cards .row-1 {
   display: flex;
 }
 .testimonial-cards .row-1 .card {
-  border: 1px solid black;
+  width: 30%;
+  border: 2px solid rgb(105, 104, 104);
   margin: 1rem;
-  padding: 1.4rem 2rem;
+  padding: 1.4rem 1.2rem;
   background-color: #fff;
+}
+.testimonial-cards .row-2 {
+  display: flex;
+}
+.card h3 {
+  font-size: 0.88rem;
+  font-weight: 900;
+  margin-top: 0.16rem;
+  margin-bottom: 1rem;
+}
+.card span {
+  font-size: 0.7rem;
+  color: rgb(77, 75, 75);
+}
+.card p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  word-spacing: 2px;
+  color: rgb(29, 26, 26);
+  margin-bottom: 0.3rem;
+}
+.row-1 .card-1 {
+  height: 160px;
+  transform: translateY(5rem);
+}
+.row-1 .card-3 {
+  height: 140px;
+  transform: translateY(6rem);
+}
+.testimonial-cards .row-2 .card {
+  width: 30%;
+  border: 2px solid rgb(105, 104, 104);
+  margin: 1rem;
+  padding: 1.4rem 1.2rem;
+  background-color: #fff;
+}
+.row-2 .card-2 {
+  height: 160px;
+}
+/* .row-2 .card-3 {
+  transform: translateY(-6rem);
+} */
+
+.testimonial-flex {
+  display: flex;
+}
+.testimonial-flex img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.9rem;
 }
 /* footer */
 #footer {
